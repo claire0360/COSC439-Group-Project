@@ -32,3 +32,40 @@ It combines an **Arduino-based firmware** with a **C# WinForms desktop app**, pr
 ---
 
 ## 🧩 Repository Structure
+
+---
+
+## 💡 Firmware (Arduino)
+**File:** `firmware/firmware.c` (works as `.ino` in Arduino IDE)  
+**Library:** [Adafruit NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
+
+### Key Functions
+- Ultrasonic A → LED “breathing” pulse  
+- Ultrasonic B → Cube detection + serial output  
+- Six buttons → piano notes (C–A) + light feedback  
+- Buzzer → melodies and game tones  
+- Startup melody and rainbow LED test  
+
+### Upload Steps
+1. Open file in **Arduino IDE** or **VS Code + PlatformIO**  
+2. Install **Adafruit NeoPixel** library  
+3. Select the correct **board** and **COM port**  
+4. Set **baud rate = 9600** and **Upload**
+
+---
+
+## 💻 Desktop App (C# WinForms)
+**Path:** `/app/PhotoApp.sln`  
+Handles serial input, smoothing, hysteresis, and slideshow control.
+
+### Highlights
+- Parses distance `B:` from serial lines  
+- 5-sample moving average smoothing  
+- Debounce logic (250 ms on / 700 ms off)  
+- Automatic slideshow start/stop  
+- COM-port auto-refresh  
+
+### Edit Your Photo Folder
+```csharp
+private const string PhotoFolder = @"C:\Users\clair\Desktop\Photos";
+
