@@ -1,0 +1,11 @@
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\bin\Debug\PhotoApp.exe.config
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\bin\Debug\PhotoApp.exe
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\bin\Debug\PhotoApp.pdb
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.csproj.AssemblyReference.cache
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.Form1.resources
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.Properties.Resources.resources
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.csproj.GenerateResource.cache
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.csproj.CoreCompileInputs.cache
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.exe
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.pdb
+C:\Users\clair\Desktop\PhotoApp\PhotoApp\obj\Debug\PhotoApp.exe.config
