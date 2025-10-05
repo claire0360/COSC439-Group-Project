@@ -65,7 +65,5 @@ Handles serial input, smoothing, hysteresis, and slideshow control.
 - Automatic slideshow start/stop  
 - COM-port auto-refresh  
 
-### Edit Your Photo Folder
-```csharp
-private const string PhotoFolder = @"C:\Users\clair\Desktop\Photos";
+
 
